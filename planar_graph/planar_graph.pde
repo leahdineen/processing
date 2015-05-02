@@ -62,7 +62,6 @@ void setup(){
      } 
   }
   
-  
   //have to draw circles last so the lines don't cross them
   for(int i=0; i<num_nodes; i++){
     ellipse(nodes[i].x, nodes[i].y, node_size, node_size);
